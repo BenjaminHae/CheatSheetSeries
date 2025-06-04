@@ -206,7 +206,7 @@ Universal Second Factor (U2F) is a standard for USB/NFC hardware tokens that  im
 
 #### Pros
 
-- U2F tokens are resistant to phishing since the private key never leaves the token.
+- U2F tokens are resistant to phishing since the origin of the web application is part of the client data that is signed using the private key on the token.
 - Users can simply press a button rather than typing in a code.
 - As the tokens are separate physical devices, they are almost impossible for an attacker to compromise remotely.
 - U2F is natively supported by a number of major web browsers.
